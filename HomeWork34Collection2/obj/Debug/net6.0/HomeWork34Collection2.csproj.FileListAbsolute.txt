@@ -1,0 +1,15 @@
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\bin\Debug\net6.0\HomeWork34Collection2.exe
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\bin\Debug\net6.0\HomeWork34Collection2.deps.json
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\bin\Debug\net6.0\HomeWork34Collection2.runtimeconfig.json
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\bin\Debug\net6.0\HomeWork34Collection2.dll
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\bin\Debug\net6.0\HomeWork34Collection2.pdb
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\obj\Debug\net6.0\HomeWork34Collection2.csproj.AssemblyReference.cache
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\obj\Debug\net6.0\HomeWork34Collection2.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\obj\Debug\net6.0\HomeWork34Collection2.AssemblyInfoInputs.cache
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\obj\Debug\net6.0\HomeWork34Collection2.AssemblyInfo.cs
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\obj\Debug\net6.0\HomeWork34Collection2.csproj.CoreCompileInputs.cache
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\obj\Debug\net6.0\HomeWork34Collection2.dll
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\obj\Debug\net6.0\refint\HomeWork34Collection2.dll
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\obj\Debug\net6.0\HomeWork34Collection2.pdb
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\obj\Debug\net6.0\HomeWork34Collection2.genruntimeconfig.cache
+E:\CSlight\HomeWork34Collection2\HomeWork34Collection2\obj\Debug\net6.0\ref\HomeWork34Collection2.dll
