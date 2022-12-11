@@ -39,10 +39,11 @@
 
             Console.WriteLine($"Обслуживание {i} клиента.\n");
             Console.WriteLine($"Клиент {i} купил товаров на сумму - {clientPurchaseSum} руб.\n");
+            Console.WriteLine($"Сумма счёта в магазине до обслуживания {i} клиента - {shopAccountSum} руб.");
 
             shopAccountSum += purchase.Dequeue();
 
-            Console.WriteLine($"Общая сумма счёта в магазине после обслуживания {i} клиента - {shopAccountSum} руб.");
+            Console.WriteLine($"Сумма счёта в магазине после обслуживания {i} клиента - {shopAccountSum} руб.");
             Console.ReadKey();
             Console.Clear();
         }
