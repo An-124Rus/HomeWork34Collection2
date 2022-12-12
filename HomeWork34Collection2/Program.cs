@@ -6,25 +6,20 @@
 
         Queue<int> purchase = new Queue<int>();
 
-        getClientPurchaseSum(ref purchase, numberOfClients);
+        LoadClientPurchaseSum(purchase, numberOfClients);
 
         ServiceOfQueue(purchase, numberOfClients);
     }
 
-    static void getClientPurchaseSum(ref Queue<int> purchase, int numberOfClients)
+    static void LoadClientPurchaseSum(Queue<int> purchase, int numberOfClients)
     {
         int minValue = 100;
         int maxValue = 1000;
-        int clientPurchaseSum;
 
         Random random = new Random();
 
         for (int i = 0; i < numberOfClients; i++)
-        {
-            clientPurchaseSum = random.Next(minValue, maxValue);
-
-            purchase.Enqueue(clientPurchaseSum);
-        }
+            purchase.Enqueue(random.Next(minValue, maxValue));
     }
 
     static void ServiceOfQueue(Queue<int> purchase, int numberOfClients)
