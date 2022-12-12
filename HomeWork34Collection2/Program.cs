@@ -31,7 +31,6 @@ internal class Program
         int shopAccountSum = 0;
         int index = 1;
 
-
         while (purchase.Count > 0)
         {
             int clientPurchaseSum = purchase.Peek();
