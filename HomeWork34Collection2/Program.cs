@@ -10,12 +10,12 @@ internal class Program
 
         Queue<int> clientsPurchases = new Queue<int>();
 
-        CreateClientPurchaseSum(clientsPurchases, numberOfClients);
+        CreateClientsPurchasesSum(clientsPurchases, numberOfClients);
 
         ServeQueue(clientsPurchases);
     }
 
-    static void CreateClientPurchaseSum(Queue<int> clientsPurchases, int numberOfClients)
+    static void CreateClientsPurchasesSum(Queue<int> clientsPurchases, int numberOfClients)
     {
         int minValue = 100;
         int maxValue = 1000;
