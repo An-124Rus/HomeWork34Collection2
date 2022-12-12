@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CSlight\\HomeWork34Collection2\\HomeWork34Collection2\\HomeWork34Collection2.csproj",
+      "projectUniqueName": "E:\\Repos\\HomeWork34Collection2\\HomeWork34Collection2\\HomeWork34Collection2.csproj",
       "projectName": "HomeWork34Collection2",
-      "projectPath": "E:\\CSlight\\HomeWork34Collection2\\HomeWork34Collection2\\HomeWork34Collection2.csproj",
+      "projectPath": "E:\\Repos\\HomeWork34Collection2\\HomeWork34Collection2\\HomeWork34Collection2.csproj",
       "packagesPath": "C:\\Users\\Family\\.nuget\\packages\\",
-      "outputPath": "E:\\CSlight\\HomeWork34Collection2\\HomeWork34Collection2\\obj\\",
+      "outputPath": "E:\\Repos\\HomeWork34Collection2\\HomeWork34Collection2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Family\\AppData\\Roaming\\NuGet\\NuGet.Config",

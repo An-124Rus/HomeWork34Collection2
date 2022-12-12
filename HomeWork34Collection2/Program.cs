@@ -10,12 +10,12 @@ internal class Program
 
         Queue<int> purchase = new Queue<int>();
 
-        LoadClientPurchaseSum(purchase, numberOfClients);
+        CreateClientPurchaseSum(purchase, numberOfClients);
 
-        ServiceOfQueue(purchase);
+        ServeQueue(purchase);
     }
 
-    static void LoadClientPurchaseSum(Queue<int> purchase, int numberOfClients)
+    static void CreateClientPurchaseSum(Queue<int> purchase, int numberOfClients)
     {
         int minValue = 100;
         int maxValue = 1000;
@@ -26,7 +26,7 @@ internal class Program
             purchase.Enqueue(random.Next(minValue, maxValue));
     }
 
-    static void ServiceOfQueue(Queue<int> purchase)
+    static void ServeQueue(Queue<int> purchase)
     {
         int shopAccountSum = 0;
         int index = 1;
