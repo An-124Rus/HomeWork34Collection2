@@ -1,14 +1,18 @@
-﻿internal class Program
+﻿using System;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
+        Console.CursorVisible = false;
+
         int numberOfClients = 10;
 
         Queue<int> purchase = new Queue<int>();
 
         LoadClientPurchaseSum(purchase, numberOfClients);
 
-        ServiceOfQueue(purchase, numberOfClients);
+        ServiceOfQueue(purchase);
     }
 
     static void LoadClientPurchaseSum(Queue<int> purchase, int numberOfClients)
@@ -22,25 +26,27 @@
             purchase.Enqueue(random.Next(minValue, maxValue));
     }
 
-    static void ServiceOfQueue(Queue<int> purchase, int numberOfClients)
+    static void ServiceOfQueue(Queue<int> purchase)
     {
         int shopAccountSum = 0;
+        int index = 1;
 
-        for (int i = 1; i < numberOfClients + 1; i++)
+
+        while (purchase.Count > 0)
         {
             int clientPurchaseSum = purchase.Peek();
 
-            Console.CursorVisible = false;
-
-            Console.WriteLine($"Обслуживание {i} клиента.\n");
-            Console.WriteLine($"Клиент {i} купил товаров на сумму - {clientPurchaseSum} руб.\n");
-            Console.WriteLine($"Сумма счёта в магазине до обслуживания {i} клиента - {shopAccountSum} руб.");
+            Console.WriteLine($"Обслуживание {index} клиента.\n");
+            Console.WriteLine($"Клиент {index} купил товаров на сумму - {clientPurchaseSum} руб.\n");
+            Console.WriteLine($"Сумма счёта в магазине до обслуживания {index} клиента - {shopAccountSum} руб.");
 
             shopAccountSum += purchase.Dequeue();
 
-            Console.WriteLine($"Сумма счёта в магазине после обслуживания {i} клиента - {shopAccountSum} руб.");
+            Console.WriteLine($"Сумма счёта в магазине после обслуживания {index} клиента - {shopAccountSum} руб.");
             Console.ReadKey();
             Console.Clear();
+
+            index++;
         }
     }
 }
